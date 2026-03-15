@@ -33,8 +33,7 @@ Altere o CSS de forma que **apenas o terceiro parágrafo filho de <code>div</cod
 
 Altere o CSS de forma que, quando a janela tiver menos de 480px de largura, **<code>div</code> "container"** tenha fundo azul (usar *lightblue*, <code>#ADD8E6</code>).
 
-
-
+## COMPLETO
 
 
 
