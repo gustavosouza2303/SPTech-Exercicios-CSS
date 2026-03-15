@@ -1,0 +1,171 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+.header {
+    background-color: #1F2A44;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+    color: white;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.mvv {
+    height: 100px;
+    width: 100px;
+}
+
+.box { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+}
+
+.footer {
+    background-color: #1F2A44;
+}
+
+.footer .container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+}
+
+.login .container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-cadastro {
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 200px;
+}
+
+.card-login {
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 200px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.botao {
+    padding: 12px 25px;
+    background-color: #1F2A44;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.simulador .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
+    padding: 40px;
+    width: 40%;
+    gap: 30px;
+    margin-bottom: 200px;
+}
+
+.simulador .container h2 {
+    font-size: 50px;
+}
+
+.simulador .container p {
+    font-size: 20px;
+}
